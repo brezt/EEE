@@ -58,6 +58,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="nivel_academico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nivel_academico.Designer.cs">
+      <DependentUpon>nivel_academico.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nivel_academico.resx">
+      <DependentUpon>nivel_academico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -97,6 +106,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\login-icon-png-27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-144.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
