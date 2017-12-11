@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace EEE
 {
-    public partial class Incio : Form
+    public partial class pension : Form
     {
-        public Incio()
+        public pension()
         {
             InitializeComponent();
-        }
-
-        private void tabPage2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Inicio_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
