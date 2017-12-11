@@ -46,9 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs" />
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="cargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cargo.Designer.cs">
+      <DependentUpon>cargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="estudio_extra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estudio_extra.Designer.cs">
+      <DependentUpon>estudio_extra.cs</DependentUpon>
     </Compile>
     <Compile Include="frmEmpleado.cs">
       <SubType>Form</SubType>
@@ -56,11 +64,23 @@
     <Compile Include="frmEmpleado.Designer.cs">
       <DependentUpon>frmEmpleado.cs</DependentUpon>
     </Compile>
+    <Compile Include="frminicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frminicio.Designer.cs">
+      <DependentUpon>frminicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMantenimientoUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMantenimientoUsuarios.Designer.cs">
       <DependentUpon>frmMantenimientoUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jubilacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jubilacion.Designer.cs">
+      <DependentUpon>jubilacion.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -74,22 +94,46 @@
     <Compile Include="nivel_academico.Designer.cs">
       <DependentUpon>nivel_academico.cs</DependentUpon>
     </Compile>
+    <Compile Include="pension.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pension.Designer.cs">
+      <DependentUpon>pension.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro.Designer.cs">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="cargo.resx">
+      <DependentUpon>cargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estudio_extra.resx">
+      <DependentUpon>estudio_extra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEmpleado.resx">
       <DependentUpon>frmEmpleado.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frminicio.resx">
+      <DependentUpon>frminicio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMantenimientoUsuarios.resx">
       <DependentUpon>frmMantenimientoUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jubilacion.resx">
+      <DependentUpon>jubilacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="nivel_academico.resx">
       <DependentUpon>nivel_academico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pension.resx">
+      <DependentUpon>pension.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -101,6 +145,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Registro.resx">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
