@@ -70,12 +70,6 @@
     <Compile Include="frminicio.Designer.cs">
       <DependentUpon>frminicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMantenimientoDeUsuarios.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMantenimientoDeUsuarios.Designer.cs">
-      <DependentUpon>frmMantenimientoDeUsuarios.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmMantenimientoUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,9 +119,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frminicio.resx">
       <DependentUpon>frminicio.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmMantenimientoDeUsuarios.resx">
-      <DependentUpon>frmMantenimientoDeUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMantenimientoUsuarios.resx">
       <DependentUpon>frmMantenimientoUsuarios.cs</DependentUpon>
